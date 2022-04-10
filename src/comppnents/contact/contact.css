@@ -1,0 +1,62 @@
+.content {
+  padding: 3rem 0;
+  width: 90%;
+  min-height: 30vh;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1059px) {
+  .content {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 590px) {
+  .contact {
+    width: 100%;
+  }
+}
+
+.contact {
+  display: flex;
+  align-items: left;
+  max-width: 600px;
+  margin: auto;
+  min-height: 60vh;
+}
+.input-control {
+  position: relative;
+  font-weight: 500;
+  width: 100%;
+}
+form h3 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+}
+form p {
+  text-align: left;
+  font-size: 14px;
+}
+input,
+textarea {
+  width: 100%;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 1rem 2rem;
+  margin: 5px;
+  border: 1px solid #373a37;
+  border-radius: 7px;
+}
+.s-btn {
+  color: #fff;
+  font-size: 14px;
+  background-color: #373a37;
+  padding: 1.1rem 1rem;
+  cursor: pointer;
+  border-radius: 7px;
+  width: 100%;
+  margin: 5px;
+  transition: all 0.4s ease-in-out;
+}
+.s-btn:hover {
+  background-color: #1a4483;
+}
