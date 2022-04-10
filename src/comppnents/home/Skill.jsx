@@ -15,7 +15,7 @@ const Skill = () => {
         <div className="container">
           <div className="heading">
             <h3> WHY CHOOSE US</h3>
-            <h1>Some Of My Skills</h1>
+            <h1>Some of my challenges</h1>
           </div>
 
           <div className="content flex">

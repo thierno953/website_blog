@@ -1,0 +1,57 @@
+/*------------ skill ----------*/
+.skill {
+  padding: 50px 0;
+}
+.skill .heading {
+  text-align: center;
+}
+.progress {
+  background-color: #d5d5d5;
+  border-radius: 20px;
+  position: relative;
+  margin: 45px 0;
+  height: 10px;
+  width: 90%;
+}
+.progress h4 {
+  position: absolute;
+  color: black;
+  top: -30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.progress h4:nth-child(2) {
+  right: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #7f9cb5;
+}
+.progress-done {
+  background-color: #08071c;
+  border-radius: 20px;
+  color: #fff;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+}
+.skill .right {
+  padding: 0 50px;
+}
+.skill .right h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.skill .right p {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .skill .content {
+        flex-direction: column;
+      }
+      .skill .right {
+        padding: 0 0;
+      }
+    
+}

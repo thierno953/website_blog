@@ -39,7 +39,7 @@ const Blogdata = [
     {
       id: 3,
       date: "28 FEB, 2019",
-      title: "3 WooCommerce Plugins to Boost Sales",
+      title: "E-Commerce Plugins to Boost Sales",
       cover: Blog3,
       image: Blog2,
       category: "IT",
@@ -84,7 +84,7 @@ const Blogdata = [
     {
       id: 6,
       date: "28 FEB, 2019",
-      title: "3 WooCommerce Plugins to Boost Sales",
+      title: "E-Commerce Plugins to Boost Sales",
       cover: Blog7,
       image: Blog6,
       category: "IT",

@@ -349,6 +349,28 @@ h3 {
   }
 }
 
+.progress h4 {
+  position: absolute;
+  color: black;
+  top: -30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.progress h4:nth-child(2) {
+  right: 0;
+  font-size: 17px;
+  font-weight: 400;
+  color: #7f9cb5;
+}
+.progress-done {
+  background-color: #38d16a;
+  border-radius: 20px;
+  color: #fff;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+}
 
 .skill .right {
   padding: 0 50px;

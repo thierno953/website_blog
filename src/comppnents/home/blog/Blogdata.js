@@ -20,7 +20,7 @@ const Blogdata = [
     {
       id: 3,
       desc: "veritatis nobis inventore consectetur omnis porro iusto excepturi, ",
-      title: "3 WooCommerce Plugins",
+      title: "E-Commerce Plugins",
       cover: Blog3,
       category: "IT",
     },
@@ -41,7 +41,7 @@ const Blogdata = [
     {
       id: 3,
       desc: "veritatis nobis inventore consectetur omnis porro iusto excepturi, ",
-      title: "3 WooCommerce Plugins",
+      title: "WooCommerce Plugins",
       cover: Blog3,
       category: "IT",
     },
