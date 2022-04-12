@@ -1,5 +1,4 @@
 import React from "react"
-import Experince from "./experence/Experince"
 
 const WrapperOne = () => {
   const data = [
@@ -34,7 +33,7 @@ const WrapperOne = () => {
           })}
         </div>
       </section>
-      <Experince />
+   
     </>
   )
 }
