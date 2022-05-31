@@ -117,24 +117,12 @@ header.active {
   margin-top: 80px;
 }
 .home {
-  height: 80vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
-.home .img {
-  height: 90vh;
-  width: 100%;
-  position: relative;
-}
-.home img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 90vh;
-  width: 100%;
-  max-width: 100%;
-  object-fit: contain;
-  transform: scale(1.1);
-  margin-top: 5px;
-}
+
 .home h1 {
   font-size: 60px;
   margin-bottom: 20px;
@@ -142,7 +130,7 @@ header.active {
 .SocailIcon i {
   width: 35px;
   height: 35px;
-  text-align: center;
+  text-align: justify;
   line-height: 35px;
   margin-right: 10px;
   border-radius: 50%;
@@ -230,8 +218,7 @@ h3 {
 
 h3 {
   font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
+  text-align: justify;
   color: #373a37;
   margin: 20px 0;
 }
@@ -251,30 +238,20 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 .about img {
   object-fit: cover;
   max-width: 100%;
   width: 100%;
-  justify-self: center;
+
 }
-/* .about .img::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -50px;
-  right: 0;
-  background-color: #373a37;
-  width: 400px;
-  height: 56vh;
-  z-index: -1;
-} */
+
 
 /*------------ about ----------*/
 /*------------ Services ----------*/
 .Services {
-  text-align: center;
+  text-align: justify;
   background-color: #f8f9fe;
   padding: 50px 0;
 }
@@ -306,7 +283,7 @@ h3 {
 .wrapper .container {
   max-width: 40%;
   margin: auto;
-  text-align: center;
+  text-align: justify;
 }
 .wrapper h2 {
   font-size: 40px;
@@ -316,21 +293,19 @@ h3 {
   margin-bottom: 30px;
 }
 /*------------ skill ----------*/
-.skill {
-  padding: 50px 0;
-}
+
 .skill .heading {
-  text-align: center;
+  text-align: justify;
 }
 .skill_flex {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  gap: 20px;
 }
 .skill_background {
   background: #fff;
   box-shadow: 0 5px 20px 0 rgb(0 0 0 / 6%);
-  padding: 10px;
+  padding: 20px;
   z-index: 1;
 }
 .skill_background i {
@@ -345,7 +320,7 @@ h3 {
 }
 @media screen and (max-width: 768px) {
   .skill_flex {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
 }
 
@@ -391,7 +366,7 @@ h3 {
 }
 .wrapperOne {
   background: #373a37;
-  text-align: center;
+  text-align: justify;
 }
 .wrapperOne h1 {
   color: #fff;
@@ -416,7 +391,7 @@ h3 {
   height: 170vh;
 }
 .work .heading {
-  text-align: center;
+  text-align: justify;
   color: #fff;
   padding: 50px 0;
 }
@@ -477,7 +452,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: justify;
   flex-wrap: wrap;
   padding: 50px;
   position: absolute;
@@ -544,11 +519,15 @@ h3 {
 /*------------ work ----------*/
 /*------------ blog ----------*/
 .blog .heading {
-  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  text-align: justify;
 }
+
 .blog .text {
   margin: 0;
 }
+
 .blog span {
   opacity: 0.5;
   font-size: 15px;
@@ -560,6 +539,7 @@ h3 {
   color: #373a37;
   display: block;
   line-height: 20px;
+  margin-top: 10px;
 }
 .blog a .icon {
   padding-top: 12px;
@@ -626,30 +606,15 @@ footer .icon i {
 }
 /*------------ footer ----------*/
 @media screen and (max-width: 768px) {
-  /*------------ home ----------*/
   .left,
   .right {
     width: 100%;
   }
-  .home .container {
+   .container {
     flex-direction: column;
     flex-direction: column-reverse;
   }
-  .home {
-    height: 134vh;
-  }
-  .home .img {
-    height: 100%;
-    width: 100%;
-    position: relative;
-  }
-  .home img {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    transform: scale(1);
-  }
-  /*------------ home ----------*/
+
   /*------------ Branding ----------*/
   .grid {
     grid-template-columns: repeat(1, 1fr);
@@ -677,6 +642,10 @@ footer .icon i {
     max-width: 80%;
   }
   /*------------ skill ----------*/
+  .skill .container{
+    max-width: 100%;
+    margin: auto;
+  }
   .skill .content {
     flex-direction: column;
   }

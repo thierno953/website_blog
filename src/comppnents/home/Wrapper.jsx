@@ -4,9 +4,8 @@ import { Link } from "react-router-dom";
 const Wrapper = () => {
   const data = [
     {
-      title: "LOOKING FOR EXCLUSIVE SERVICES?",
-      heading: "Get The Best For Your Business",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      heading: "Primary Objective",
+      desc: "Our main goal is to become your daily tool to discover new resources and facilitate your professional growth as a developer. We are convinced that everything starts from the dedication and pleasure of doing this job.",
     },
   ];
   return (
@@ -16,10 +15,8 @@ const Wrapper = () => {
           {data.map((value, index) => {
             return (
               <div className="box" key={index}>
-                <h3>{value.title}</h3>
                 <h2>{value.heading}</h2>
                 <p>{value.desc}</p>
-                <button className='primary-btn'><Link to="/contact">Contact Us</Link></button>
               </div>
             );
           })}

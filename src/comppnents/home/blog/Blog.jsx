@@ -7,8 +7,8 @@ const Blog = () => {
       <section className="blog Services">
         <div className="container topMarign">
           <div className="heading">
-            <h3>LATEST BLOG</h3>
-            <h1>Read Inspirational Story Every Week</h1>
+            <h1>Be a part of</h1>
+            <p>Communities help developers connect with others who share the same experience, failures, and successes within the industry. Here is a list of some of the best online communities for software developers. </p>
           </div>
 
           <div className="contain grid topMarign">
@@ -18,6 +18,7 @@ const Blog = () => {
                   <div className="text">
                     <h2>{val.title}</h2>
                     <span>{val.desc}</span>
+                    <a href={val.link} target="_blank">Check it out →</a>
                   </div>
                 </div>
               );

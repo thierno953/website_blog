@@ -17,39 +17,38 @@ const BlogSingle = () => {
   }, [id]);
   return (
     <>
-    
-        <div className="section">
+      <div className="section">
         <section className="container">
-        {item ? (
-          <div className="container_image">
-            <img className="image1" src={item.cover} alt={item.title} />
-            <div className="single_max">
-              <div className="profile">
-                <span>22/03/2022</span>
-                <span>Thierno</span>
-              </div>
+          {item ? (
+            <div className="container_image">
               <h1 className="position">{item.title}</h1>
-              <div className="info_blog">
-                <h1 className="absolute">{item.category}</h1>
-                <h2>{item.title1}</h2>
-                <p>{item.description1}</p>
-
-                <h2>{item.title1}</h2>
-                <p>{item.description1}</p>
-                <div className="profile_image">
-                  <img src={item.image} alt={item.title} />
+              <img className="image1" src={item.cover} alt={item.title} />
+              <div className="single_max">
+                <div className="profile">
+                  <span>{item.date}</span>
+                  <span>{item.name}</span>
                 </div>
-                <h2>{item.title1}</h2>
-                <p>{item.description1}</p>
+
+                <div className="info_blog">
+                  <h1 className="absolute">{item.category}</h1>
+                  <h2>{item.title1}</h2>
+                  <p>{item.description1}</p>
+
+                  <h2>{item.title1}</h2>
+                  <p>{item.description1}</p>
+                  <div className="profile_image">
+                    <img src={item.image} alt={item.title} />
+                  </div>
+                  <h2>{item.title1}</h2>
+                  <p>{item.description1}</p>
+                </div>
               </div>
             </div>
-          </div>
-        ) : (
-          <EmptyFile />
-        )}
-             </section>
-        </div>
- 
+          ) : (
+            <EmptyFile />
+          )}
+        </section>
+      </div>
     </>
   );
 };

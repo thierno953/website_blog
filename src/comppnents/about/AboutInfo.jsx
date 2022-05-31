@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "../../assets/943-9431444_website-isometric-flat-design.png";
-import About from "../home/about/About";
+import Skill from "../home/Skill";
 
 const AboutInfo = () => {
   const data = [
@@ -42,7 +42,7 @@ const AboutInfo = () => {
           })}
         </div>
       </section>
-      <About />
+      <Skill />
     </>
   );
 };

@@ -11,12 +11,9 @@ const HomePages = () => {
   return (
     <>
        <Home />
-       <Branding />
        <About />
-       <Blog /> 
        <Wrapper />
-       <Skill />
-       <WrapperOne />
+       <Blog /> 
     </>
   )
 }

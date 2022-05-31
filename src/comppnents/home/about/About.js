@@ -1,16 +1,16 @@
 import React from "react";
-import Image from "../../../assets/58edd40fe88c5_thumb900.webp";
+import Image from "../../../assets/flex-removebg-preview.png";
 
 const About = () => {
   const data = [
     {
-      title: "Who I Am And What I Do",
+      title: "Knowledge sharing",
       desc1:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde possimus quaerat quam dolorum ipsa laboriosam, repudia illum amet inventore facilis, eius libero.",
+        "Knowledge might be power, but it’s much more powerful when it’s shared! If only one person knows how to do something, that prevents others from developing and can hinder your organisation’s progress.",
       desc2:
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "Plus, what happens if they hoard knowledge and decide to leave!? But that’s enough doom and gloom because when you manage knowledge properly and give people a platform to share and access it, you’re opening the door to a whole host of benefits! Software development is such a challenging field that it’s almost impossible to succeed in it without having some sort of support system.",
       desc3:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "With the many popular languages, frameworks, tools, and libraries available, having someone who can guide or mentor you will significantly increase your chances of success in this field.",
       cover: Image,
     },
   ];
@@ -21,22 +21,24 @@ const About = () => {
           {data.map((value) => {
             return (
               <>
+                <div className="right">
+                  <div className="img">
+                    <img src={value.cover} alt="" />
+                  </div>
+                </div>
                 <div className="left mtop">
                   <div className="heading">
-                    <h3>About Me</h3>
+                    <h1>Let's share.</h1>
+                    <h3>A place for programmers to share ideas and help each other grow. All developers are welcome to submit stories, tutorials, question</h3>
                     <h1>{value.title}</h1>
                   </div>
 
                   <p>{value.desc1}</p>
                   <p>{value.desc2}</p>
                   <p>{value.desc3}</p>
-               
+
                 </div>
-                <div className="right">
-                  <div className="img">
-                    <img src={value.cover} alt="" />
-                  </div>
-                </div>
+
               </>
             );
           })}

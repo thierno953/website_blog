@@ -18,21 +18,13 @@
 }
 .position {
   font-size: 30px;
-  padding-top: 10px;
+  padding-bottom: 10px;
   color: #373a37;
 }
 .info_blog {
   padding-top: 15px;
 }
-.absolute {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 40px;
-  font-weight: 700;
-  color: #ebebeb;
-}
+
 .info_blog h2 {
   font-size: 18px;
   margin-top: 10px;

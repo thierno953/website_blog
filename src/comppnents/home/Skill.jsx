@@ -3,54 +3,43 @@ import React from "react";
 const Skill = () => {
   const data = [
     {
-      title: "Every Day is a New Challenge",
-      para: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id autem veritatis nobis inventore consectetur omnis porro iusto excepturi, quo voluptate quos vel, quasi officia fugiat.",
-      para1:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos illo qui quibusdam perspiciatis soluta cumque quia asperiores sapiente! Veniam odit veritatis mollitia eos similique impedit beatae iusto.",
-    },
+      title: "About me",
+      para: "I have always been passionate about technology, that's why I joined a coding bootcamp training to combine passion and employment. I would like to take advantage of this great opportunity to learn more, go further and be able to reinvent myself, once again."
+    }
   ];
   return (
     <>
       <section className="skill">
         <div className="container">
-          <div className="heading">
-            <h3> WHY CHOOSE US</h3>
-            <h1>Some of my challenges</h1>
-          </div>
-
           <div className="content flex">
             <div className="left topMarign">
               <div className="skill_flex">
                 <div className="skill_background">
-                  <i class="fa-solid fa-address-card"></i>
-                  <h4>WHY CHOOSE US</h4>
+                <i class="fa-brands fa-react"></i>
+                  <h4>REACT</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
-                    autem
+                  The Progressive JavaScript Framework. An approachable, performant and versatile framework for building web user interfaces.
                   </p>
                 </div>
                 <div className="skill_background">
-                  <i class="fa-brands fa-amazon-pay"></i>
-                  <h4>Every Day is a New Challenge</h4>
+                <i class="fa-brands fa-css3"></i>
+                  <h4>CSS/UI</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
-                    autem
+                  Many websites today allow the user to change the layout of a site without changing the content. Style sheets that are stored externally allow the user to make the required changes on their own.
                   </p>
                 </div>
                 <div className="skill_background">
-                  <i class="fa-brands fa-apple"></i>
-                  <h4>WHY CHOOSE US</h4>
+                <i class="fa-brands fa-node"></i>
+                  <h4>NODEJS</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
-                    autem
+                  JodeJs can natively serialize and deserialize JSON thanks to the fact that it uses JavaScript. The most used package manager: with Node. js you will use the npm package manager which is the most used in the world.
                   </p>
                 </div>
                 <div className="skill_background">
-                  <i class="fa-solid fa-arrows-rotate"></i>
-                  <h4>WHY CHOOSE US</h4>
+                <i class="fa-brands fa-html5"></i>
+                  <h4>HTML5</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
-                    autem
+                  HTML is used to structure the page. It tells crawlers how they should understand the page and what elements it contains
                   </p>
                 </div>
               </div>
@@ -61,7 +50,6 @@ const Skill = () => {
                   <div key={index}>
                     <h1>{val.title}</h1>
                     <p>{val.para}</p>
-                    <p>{val.para1}</p>
                   </div>
                 );
               })}

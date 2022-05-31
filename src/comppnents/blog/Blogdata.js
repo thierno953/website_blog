@@ -10,6 +10,7 @@ const Blogdata = [
     {
       id: 1,
       date: "26 FEB, 2022",
+      name: "Thierno",
       title: "The Most Popular New top Business Apps",
       cover: Blog1,
       image: Blog3,
@@ -23,7 +24,8 @@ const Blogdata = [
     },
     {
       id: 2,
-      date: "27 FEB, 2019",
+      date: "27 FEB, 2022",
+      name: "Thierno",
       title: "The Best Marketing top Management Tools",
       cover: Blog2,
       image: Blog1,
@@ -38,7 +40,8 @@ const Blogdata = [
     },
     {
       id: 3,
-      date: "28 FEB, 2019",
+      date: "28 FEB, 2022",
+      name: "Thierno",
       title: "E-Commerce Plugins to Boost Sales",
       cover: Blog3,
       image: Blog2,
@@ -55,6 +58,7 @@ const Blogdata = [
     {
       id: 4,
       date: "26 FEB, 2022",
+      name: "Thierno",
       title: "The Most Popular New top Business Apps",
       cover: Blog4,
       image: Blog3,
@@ -68,7 +72,8 @@ const Blogdata = [
     },
     {
       id: 5,
-      date: "27 FEB, 2019",
+      date: "27 FEB, 2022",
+      name: "Thierno",
       title: "The Best Marketing top Management Tools",
       cover: Blog5,
       image: Blog1,
@@ -83,7 +88,8 @@ const Blogdata = [
     },
     {
       id: 6,
-      date: "28 FEB, 2019",
+      date: "28 FEB, 2022",
+      name: "Thierno",
       title: "E-Commerce Plugins to Boost Sales",
       cover: Blog7,
       image: Blog6,
