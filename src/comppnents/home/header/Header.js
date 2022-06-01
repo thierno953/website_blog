@@ -14,7 +14,7 @@ const Header = () => {
       <header className="header">
         <div className="container flex">
           <div className="logo">
-            <h1>THB</h1>
+            <h1><Link to="/">Thierno</Link></h1>
           </div>
           <div className="nav">
             <ul

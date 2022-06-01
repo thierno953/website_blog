@@ -1,46 +1,32 @@
-import Service1 from "../../../assets/services-1.jpg";
-import Service2 from "../../../assets/services-2.jpg";
-import Service3 from "../../../assets/services-3.jpg";
-import Service4 from "../../../assets/services-4.jpg";
-import Service5 from "../../../assets/services-5.jpg";
-import Service6 from "../../../assets/services-6.jpg";
+import Service1 from "../../../assets/blog5.jpg";
+import Service2 from "../../../assets/blog4.jpeg";
+import Service3 from "../../../assets/blog7.jpg";
+import Service4 from "../../../assets/blog1.jpg";
 
 const ServicesData = [
   {
     id: 1,
-    title: "Web Design",
-    desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
+    title: "CSS/UI frameworks",
+    desc: "CSS/UI frameworks to help build great looking websites and applications such as Tailwind CSS, Materialize, Bulma and others.",
     cover: Service1,
   },
   {
     id: 2,
-    title: "Web Development",
-    desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
+    title: "Javascript Chart Libraries",
+    desc: "Libraries that help developers visualize data into charts such as ChartJS, FrappeJS and others.",
     cover: Service2,
   },
   {
     id: 3,
-    title: "Photography",
-    desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
+    title: "UI Graphics",
+    desc: "Websites and resources with modern UI components in different formats such as PSD, Sketch, Figma, etc. They are great for ideas for web components/UI.",
     cover: Service3,
   },
   {
     id: 4,
-    title: "Live Support",
-    desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
+    title: "Public APIs",
+    desc: "Looking for one that fits your needs can be incredibly time-consuming. Here A collective list of free APIs for use in software and web development.",
     cover: Service4,
-  },
-  {
-    id: 5,
-    title: "Content Writing",
-    desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
-    cover: Service5,
-  },
-  {
-    id: 6,
-    title: "Timely Deliverables",
-    desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
-    cover: Service6,
   },
 ];
 

@@ -29,7 +29,7 @@ const About = () => {
                 <div className="left mtop">
                   <div className="heading">
                     <h1>Let's share.</h1>
-                    <h3>A place for programmers to share ideas and help each other grow. All developers are welcome to submit stories, tutorials, question</h3>
+                    <p>A place for programmers to share ideas and help each other grow. All developers are welcome to submit stories, tutorials, question</p>
                     <h1>{value.title}</h1>
                   </div>
 

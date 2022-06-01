@@ -5,7 +5,7 @@ const Home = () => {
     <>
       <section className="home">
         <div className="container">
-          <div className=" topMarign">
+          <div className="topMarign">
             <h1>
               Let U dev
             </h1>

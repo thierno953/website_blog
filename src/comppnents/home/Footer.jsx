@@ -7,8 +7,8 @@ const Footer = () => {
       <footer>
         <div className="container grid1">
           <div className="box">
-            <h2>THB</h2>
-            <p>Hi, i'm Thierno Mamadou Barry Web Developer</p>
+          <h1><Link to="/">Thierno</Link></h1>
+            <p>Hi, i'm Junior Web Developer</p>
             {/* <div className="SocailIcon">
             <a href="/https://github.com/thierno953" target="_blank" without rel="noreferrer">
             <i className="fa-brands fa-github"></i>

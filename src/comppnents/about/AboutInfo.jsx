@@ -1,17 +1,13 @@
 import React from "react";
-import Image from "../../assets/943-9431444_website-isometric-flat-design.png";
+import Image from "../../assets/undraw_programming_re_kg9v.svg";
 import Skill from "../home/Skill";
 
 const AboutInfo = () => {
   const data = [
     {
-      title: "Who I Am And What I Do",
-      desc1:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde possimus quaerat quam dolorum ipsa laboriosam, repudia illum amet inventore facilis, eius libero.",
-      desc2:
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-      desc3:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "Thierno Barry",
+      desc:
+        "Junior web developer. Delighted to meet you. I create professional websites and application. I like to develop my ideas, work in team and I always try to bring my points of view, to find the solution and ready to learn new technologies. I'm quietly confident, naturally curious, and perpetually working to improve my chops one design issue at a time.",
       cover: Image,
     },
   ];
@@ -22,21 +18,19 @@ const AboutInfo = () => {
           {data.map((value) => {
             return (
               <>
-               <div className="right">
+                <div className="right">
                   <div className="img">
                     <img src={value.cover} alt="" />
                   </div>
                 </div>
                 <div className="left mtop">
                   <div className="heading">
-                    <h3>About Me</h3>
+                    <h3>HI, I'M </h3>
                     <h1>{value.title}</h1>
                   </div>
-                  <p>{value.desc1}</p>
-                  <p>{value.desc2}</p>
-                  <p>{value.desc3}</p>
+                  <p>{value.desc}</p>
                 </div>
-               
+
               </>
             );
           })}
