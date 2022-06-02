@@ -9,11 +9,6 @@ const Footer = () => {
           <div className="box">
           <h1><Link to="/">Thierno</Link></h1>
             <p>Hi, i'm Junior Web Developer</p>
-            {/* <div className="SocailIcon">
-            <a href="/https://github.com/thierno953" target="_blank" without rel="noreferrer">
-            <i className="fa-brands fa-github"></i>
-            </a>
-            </div> */}
           </div>
 
           <div className="box">
@@ -42,7 +37,7 @@ const Footer = () => {
             </div>
             <div className="text">
               <p>BackEnd</p>
-              <span>ExpressJS</span>
+              <span>NodeJs</span>
             </div>
             <div className="text">
               <p>DataBase</p>

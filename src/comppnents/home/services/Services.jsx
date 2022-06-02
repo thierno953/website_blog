@@ -11,7 +11,7 @@ const Services = () => {
             <p>
               One of the important skills you need to learn as a Self-taught developer is to be resourceful, my father taught me this skill when I was still very young, and I didn’t know it would take me far in life, and I want you to do the same.
             </p>
-            <h3>having the ability to find clever ways to overcome difficulties.</h3>
+            <h4>Having the ability to find clever ways to overcome difficulties.</h4>
             <p>Here are some important resources that every developer needs to know. I am not affiliated with any of it, I am just using them personally and would want to share it with you, especially to all Self-taught developer</p>
             <p>
               It is important for us developers to always be learning, to always be updated, and to continue to grow to become the best developer that we can be.
